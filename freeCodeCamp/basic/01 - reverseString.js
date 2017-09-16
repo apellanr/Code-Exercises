@@ -10,7 +10,7 @@ function reverseString(str) {
     // Passing "" (an empty string) into the method splits the string at every character.
     // .reverse method reverses the order of the elements in our newly formed array.
     // .join method to reassemble our array back into a string. 
-    var reverseStr = str.split("").reverse().join(); 
+    var reverseStr = str.split("").reverse().join(""); 
     return reverseStr;
 }
 
