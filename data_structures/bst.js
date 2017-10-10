@@ -223,12 +223,11 @@ class Node {
   bst.add(5);
   bst.add(7);
   bst.add(20);
-  bst.remove(4);
+
   console.log(bst.findMinHeight());
   console.log(bst.findMaxHeight());
   console.log(bst.isBalanced());
   bst.add(10);
-  bst.remove(7);
   console.log(bst.findMinHeight());
   console.log(bst.findMaxHeight());
   console.log(bst.isBalanced());
